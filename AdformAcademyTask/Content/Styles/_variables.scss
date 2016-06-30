@@ -1,0 +1,30 @@
+﻿//Colors
+$primary-color: #3498db;
+
+$success-color: #2ecc71;
+
+$danger-color: #e74c3c;
+
+$neutral-color: #95a5a6;
+
+
+$font-light-color: #fff;
+$font-dark-color: #000;
+
+//Breakpoints
+$mobile-min-portrait: 320px;
+$mobile-max-portrait: 767px;
+
+$mobile-min-landscape: 321px;
+$mobile-max-landscape: $mobile-max-portrait;
+
+$tablet-min: 768px;
+$tablet-max: 1024px;
+
+$desktop-min: 1280px;
+$desktop-md: 1440px;
+$desktop-lg: 1920px;
+
+
+//Base settings
+$base-font-size: 16px;

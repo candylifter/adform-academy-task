@@ -1,0 +1,45 @@
+﻿body {
+    font-size: $base-font-size;
+    background-color: #f1f1f1;
+}
+
+main {
+    @include outer-container();
+    padding: 10em 1em 0;
+    text-align: center;
+
+}
+
+
+//Buttons
+#{$all-buttons} {
+  font-size: 1.5em;
+  color: $font-light-color;
+  padding: .5em .5em;
+  border: none;
+  border-radius: .2em;
+  background-color: $primary-color;
+  outline: none;
+  @include transition(.1s $ease-out-quart);
+}
+
+
+#{$all-buttons-hover}, {
+  background-color: darken($primary-color, 20%);
+}
+
+#{$all-buttons-active} {
+  background-color: darken($primary-color, 30%);
+}
+
+button[disabled] {
+    opacity: .3;
+    cursor: not-allowed;
+    background-color: darken($neutral-color, 20%);
+}
+
+
+//Utility classes
+.light-text {
+    color: $neutral-color;
+}

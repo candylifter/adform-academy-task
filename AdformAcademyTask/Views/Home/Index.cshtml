@@ -1,31 +1,68 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Index";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<button id="get-cars">Get cars</button>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+<ul id="cars">
+    <li class="car">
+        <div class="image">
+            <img src="http://buyersguide.caranddriver.com/media/assets/submodel/7528.jpg" alt="Photo of {}" />
+        </div>
+        <div class="description">
+            <p class="model"><span class="light-text">Model:</span> Aston Martin</p>
+            <p class="year"><span class="light-text">Years:</span> 2016</p>
+            <p class="ration"><span class="light-text">Ration:</span> 9.9</p>
+        </div>
+    </li>
+    <li class="car">
+        <div class="image">
+            <img src="http://buyersguide.caranddriver.com/media/assets/submodel/5824.jpg" alt="Photo of {}" />
+        </div>
+        <div class="description">
+            <p class="model"><span class="light-text">Model:</span> Audi R8</p>
+            <p class="year"><span class="light-text">Years:</span> 2010</p>
+            <p class="ration"><span class="light-text">Ration:</span> 8.0</p>
+        </div>
+    </li>
+    <li class="car">
+        <div class="image">
+            <img src="http://pictures.topspeed.com/IMG/crop/201203/koenigsegg-agera-r-3_800x0w.jpg" alt="Photo of {}" />
+        </div>
+        <div class="description">
+            <p class="model"><span class="light-text">Model:</span> Koenigsegg</p>
+            <p class="year"><span class="light-text">Years:</span> 2012</p>
+            <p class="ration"><span class="light-text">Ration:</span> 7.7</p>
+        </div>
+    </li>
+    <li class="car">
+        <div class="image">
+            <img src="http://o.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/430x242/quality/85/http://o.aolcdn.com/commerce/autodata/images/USC50FOC051B021001.jpg" alt="Photo of {}" />
+        </div>
+        <div class="description">
+            <p class="model"><span class="light-text">Model:</span> Ford Mustang</p>
+            <p class="year"><span class="light-text">Years:</span> 2016</p>
+            <p class="ration"><span class="light-text">Ration:</span> 9.9</p>
+        </div>
+    </li>
+    <li class="car">
+        <div class="image">
+            <img src="http://o.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/430x242/quality/85/http://o.aolcdn.com/commerce/autodata/images/USC50FOC051B021001.jpg" alt="Photo of {}" />
+        </div>
+        <div class="description">
+            <p class="model"><span class="light-text">Model:</span> Ford Mustang</p>
+            <p class="year"><span class="light-text">Years:</span> 2016</p>
+            <p class="ration"><span class="light-text">Ration:</span> 9.9</p>
+        </div>
+    </li>
+    <li class="car">
+        <div class="image">
+            <img src="http://pictures.topspeed.com/IMG/crop/201203/koenigsegg-agera-r-3_800x0w.jpg" alt="Photo of {}" />
+        </div>
+        <div class="description">
+            <p class="model"><span class="light-text">Model:</span> Koenigsegg</p>
+            <p class="year"><span class="light-text">Years:</span> 2012</p>
+            <p class="ration"><span class="light-text">Ration:</span> 7.7</p>
+        </div>
+    </li>
+</ul>
