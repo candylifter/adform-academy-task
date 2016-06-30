@@ -9,6 +9,10 @@ namespace AdformAcademyTask
         {
             bundles.Add(new StyleBundle("~/Content/css").Include(
                         "~/Content/Styles/Site.min.css"));
+
+            bundles.Add(new ScriptBundle("~/Content/js").Include(
+                        "~/Content/libs/jquery/dist/jquery.min.js",
+                        "~/Scripts/Scripts.js"));
         }
     }
 }
